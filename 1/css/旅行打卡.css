@@ -1,0 +1,116 @@
+/* 设置全部背景、字体大小、字体样式 */
+body{
+    background-color: #ffe8bd;
+    font-size:20px;
+    font-family:"\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+}
+/* 设置inner类下的样式 */
+div.inner{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 设置标题一样式 */
+h1{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom:black 1px dashed;
+}
+/* 设置标题二样式 */
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+/* 设置普通段落样式 */
+p{
+    margin: 0;
+    font-size: 10px;
+    font-weight: none;
+}
+/* 设置页眉区样式 */
+header.top{
+    height: 500px;
+    background-image:url(../images/top.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+
+/* 设置导航区样式 */
+nav{
+    height:50px;
+    background-color:#bbd492;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:10px 10px; 
+}
+
+nav ul li{
+    display: inline;
+    padding:50px; 
+}
+/* 导航区样式结束 */
+
+/* 设置超链接样式 */
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+/* 设置超链接样式 */
+
+/* 区块一样式 */
+div#part_1{
+    margin-top: 50px;
+}
+
+div#part_1 div.inner section#con_1,section#con_2{
+    margin-left: 30px;
+}
+/* 区块一样式结束 */
+
+/* 区块二样式 */
+div#part_2{
+    margin-top: 50px;
+}
+
+div#part_2 div.inner section#con_1,section#con_2{
+    margin-left: 30px;
+}
+/* 区块二样式结束 */
+
+/* 区块三样式 */
+div#part_3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div#part_3 div.inner section#con_1{
+    margin-left: 30px;
+}
+/* 区块三样式 */
+
+/* 页脚样式 */
+footer{
+    background-color: #bbd492;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height:4;
+}

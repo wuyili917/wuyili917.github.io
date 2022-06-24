@@ -1,0 +1,147 @@
+/* 设置全部背景、字体大小、字体样式 */
+body{
+    background-color: #ffe8bd;
+    font-size:20px;
+    font-family:"\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+}
+/* 设置inner类下的样式 */
+div.inner{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 设置标题一样式 */
+h1{
+    margin: 20px;
+    font-size: 20px;
+}
+/* 设置普通段落样式 */
+p{
+    margin: 0;
+    font-size: 12px;
+}
+/* 页眉区样式 */
+header.top{
+    height: 500px;
+    background-image:url(../images/top.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+/* 页眉区结束 */
+
+/* 导航区：列表样式 */
+nav{
+    height:50px;
+    background-color:#bbd492;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:10px 10px; 
+}
+
+nav ul li{
+    display: inline;
+    padding:50px; 
+}
+/* 导航区样式结束 */
+
+/* 定义导航区中的超链接形式 */
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+/* 超链接形式结束 */
+
+/* 区块一的样式 */
+div#part_1{
+    margin: 50px;
+    height: 300px;
+}
+
+div#part_1 div.inner section#pic_1{
+    width: 307px;
+    float: left;
+}
+
+div#part_1 div.inner section#pic_2{
+    width: 307px;
+    float: left;
+    margin-left: 40px;
+}
+
+div#part_1 div.inner section#pic_3{
+    width: 307px;
+    float: right;
+}
+/* 区块一样式结束 */
+
+/* 区块二样式 */
+div#part_2{
+    margin: 50px;
+    height: 300px;
+}
+
+div#part_2 div.inner section#pic_1{
+    width: 307px;
+    float: left;
+}
+
+div#part_2 div.inner section#pic_2{
+    width: 307px;
+    float: left;
+    margin-left: 40px;
+}
+
+div#part_2 div.inner section#pic_3{
+    width: 307px;
+    float: right;
+}
+/* 区块二样式结束 */
+
+/* 区块三样式 */
+div#part_3{
+    margin: 50px;
+    height: 300px;
+}
+
+div#part_3 div.inner section#pic_1{
+    width: 307px;
+    float: left;
+}
+
+div#part_3 div.inner section#pic_2{
+    width: 307px;
+    float: left;
+    margin-left: 40px;
+}
+
+div#part_3 div.inner section#pic_3{
+    width: 307px;
+    float: right;
+}
+/* 区块三样式结束 */
+
+/* 页脚区样式 */
+footer{
+    background-color: #bbd492;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height:4;
+}
+/* 页脚区结束 */
